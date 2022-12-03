@@ -124,26 +124,16 @@ return null;
 }
 
 private static int generarNumeroAleatorio() {
-	int aleatorio = 0;
 	int numerosPosibles = 999;
-	for(int i = 0; i < productos.length ; i++) {
-		aleatorio = (int)(Math.random()*numerosPosibles);
-	}
+	int aleatorio = (int)(Math.random()*numerosPosibles);
+	
 	return aleatorio;
 }
 private static String armarParteAlfabetica(String productos[], int pos) {
 	
-	int posicion = 0;
-	for(int j = 0; j < productos.length; j++) {
-		String nombre = productos[j].substring(0, 3);
-		productos[posicion++] = nombre + generarNumeroAleatorio();
-	}
-	for(int k = 0 ; k < productos.length ; k++) {
-		System.out.println(productos[k]);
-	}
-	
-	return productos[posicion];
+	return productos[pos].substring(0, 3);
 }
+
 
 	
 }
