@@ -93,7 +93,7 @@ private static void agregarIngredienteAlaPreparacion(Scanner teclado, MixProduct
  */
 private static void verListaDeIngredientes(Scanner teclado, MixProductosSaludables actual ) {
 	
-	actual.toString();
+	System.out.println(actual.toString());
 }
 
 /*
