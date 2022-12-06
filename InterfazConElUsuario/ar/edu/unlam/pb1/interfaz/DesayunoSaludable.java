@@ -94,6 +94,7 @@ private static void agregarIngredienteAlaPreparacion(Scanner teclado, MixProduct
 private static void verListaDeIngredientes(Scanner teclado, MixProductosSaludables actual ) {
 	
 	System.out.println(actual.toString());
+	
 }
 
 /*
@@ -103,8 +104,6 @@ private static void listaIngrediestesConTopeDeCalorias(Scanner teclado, MixProdu
 	
 	actual.ordenarPorPrecio();
 	System.out.println(actual);
-	
-	
 	
 }
 /*
